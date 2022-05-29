@@ -9,8 +9,9 @@ import cv2
 
 
 # Create The variable to store the information
-link = "https://2printforyou.wixsite.com/butterflycreations"
-data = "Hello! You must be Mary!"
+# it also can be a link for an image
+link = "https://google.com"  
+data = "Insert something here"
 
 # Encode The Link or Data
 img = qrcode.make(data)
